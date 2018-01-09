@@ -40,7 +40,7 @@ class BookingForm extends Component {
                                 <GoArrowSmallRight />
                                 <MdLocalAirport style={{ fontSize: '1.1em', color: '#e6e600' }} />
                             </Tab>
-                            <Tab data-tip="Hotel - Hotel">
+                            {/* <Tab data-tip="Hotel - Hotel">
                                 <MdHotel style={{ fontSize: '1.1em', color: '#00bfff' }} />
                                 <GoArrowSmallRight />
                                 <MdHotel style={{ fontSize: '1.1em', color: '#e6e600' }} />
@@ -49,7 +49,7 @@ class BookingForm extends Component {
                                 <MdLocalAirport style={{ fontSize: '1.1em', color: '#00bfff' }} />
                                 <GoArrowSmallRight />
                                 <MdLocalAirport style={{ fontSize: '1.1em', color: '#e6e600' }} />
-                            </Tab>
+                            </Tab> */}
                         </TabList>
 
                         <TabPanel>
@@ -58,12 +58,12 @@ class BookingForm extends Component {
                         <TabPanel>
                             <HotelToAirport />
                         </TabPanel>
-                        <TabPanel>
+                        {/* <TabPanel>
                             <HotelToHotel />
                         </TabPanel>
                         <TabPanel>
                             <AirportToAirport />
-                        </TabPanel>
+                        </TabPanel> */}
                     </Tabs>
                 </div>
             </div>
