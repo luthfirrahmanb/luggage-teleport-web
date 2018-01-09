@@ -20,9 +20,13 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('css-loader!sass-loader')
-      }
+        test: [/\.sass$/, /\.css$/, /\.less$/],
+        loader: ['style-loader', 'css-loader', 'less-loader', 'sass-loader']
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-inline-loader'
+    }
     ]
   },
   resolve: {
