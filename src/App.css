@@ -5,7 +5,7 @@
 }
 
 .container {
-  padding: 25px;
+  padding: 17px;
   margin: auto;
 }
 
@@ -15,7 +15,6 @@
 
 .bookingForm{
   position: fixed;
-  height: 100%;
 }
 
 hr{
@@ -25,8 +24,7 @@ hr{
 
 .btn{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
-  margin-top: 5px;
-  margin-bottom: -30px
+  /* margin-bottom: -30px */
 }
 
 .bg-image {
