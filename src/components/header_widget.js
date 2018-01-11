@@ -4,12 +4,12 @@ import DesktopVisible from "./desktop_visible";
 class HeaderWidget extends React.Component {
   render() {
     return (
-      <div className="textwidget">
+      <div className="textwidget" style={{marginBottom: 300}}>
         <div className="row">
           <DesktopVisible />
           <div className="col-lg-8 text-center">
-            <h1>What would you do if your day</h1>
-            <h1>had an Additional Hour?</h1>
+            <p style={{fontSize: 36}}>What would you do if your day</p>
+            <p style={{fontSize: 36}}>had an Additional Hour?</p>
             <div
               style={{
                 height: 10,
