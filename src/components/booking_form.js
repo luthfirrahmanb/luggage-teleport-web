@@ -20,10 +20,10 @@ class BookingForm extends Component {
 
     render() {
         return (
-            <div className="bookingForm" style={{ marginLeft: 9 }}>
+            <div className="bookingForm">
                 <div className="SideBar" style={{ marginBottom: '20px;' }}>
                     <button type="button" class="btn btn-danger">
-                        <Link to="/" style={{color: 'white'}}> Back</Link>
+                        <Link to="/" style={{ color: 'white' }}> Back</Link>
                     </button>
                 </div>
                 <div style={{ marginTop: '30px' }}>
@@ -52,18 +52,20 @@ class BookingForm extends Component {
                             </Tab> */}
                         </TabList>
 
-                        <TabPanel>
-                            <AirportToHotel />
-                        </TabPanel>
-                        <TabPanel>
-                            <HotelToAirport />
-                        </TabPanel>
-                        {/* <TabPanel>
+                        <div>
+                            <TabPanel>
+                                <AirportToHotel />
+                            </TabPanel>
+                            <TabPanel>
+                                <HotelToAirport />
+                            </TabPanel>
+                            {/* <TabPanel>
                             <HotelToHotel />
                         </TabPanel>
                         <TabPanel>
                             <AirportToAirport />
                         </TabPanel> */}
+                        </div>
                     </Tabs>
                 </div>
             </div>
